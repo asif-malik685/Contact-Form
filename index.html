@@ -1,0 +1,65 @@
+<!-- Created by Asif -->
+<!-- Contact Form Project -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form</title>
+  </head>
+
+  <body>
+    <!-- Full name div -->
+    <div class="container">
+      <form action="contact.php" method="post">
+        <h1>Contact Us</h1>
+        <br />
+        <hr />
+        <br /><br />
+
+        <label for="name">Full Name</label><br /><br />
+        <div class="name-row">
+          <div>
+            <input type="text" minlength="3" maxlength="30" />
+            <small>First name</small>
+          </div>
+
+          <div>
+            <input type="text" minlength="3" maxlength="30" />
+            <small>Last name</small>
+          </div>
+        </div>
+        <br /><br />
+        <!-- Full name div -->
+        <!-- email div -->
+        <label for="email">E-mail</label><br /><br />
+        <div class="email">
+          <div>
+            <input type="email" />
+            <small>Example@example.com</small>
+          </div>
+        </div>
+        <br /><br />
+        <!-- email div -->
+        <!-- message div -->
+        <label for="message">Message</label>
+        <div>
+          <br />
+          <textarea name="message" id="message"></textarea>
+        </div>
+
+        <!-- message div -->
+
+        <!-- button div -->
+        <div>
+          <br /><br /><br />
+
+          <button type="submit">SUBMIT</button>
+        </div>
+        <!-- button div -->
+      </form>
+    </div>
+  </body>
+</html>
